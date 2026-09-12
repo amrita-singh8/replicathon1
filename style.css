@@ -4,7 +4,231 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
+    background-color: #E85A00;
+}
+
+nav {
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.link {
+    text-align: right;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: 30px;
+    display: flex;
+    cursor: pointer;
+}
+
+a {
+    color: wheat;
+}
+
+.placeOrder {
+    width: 140px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 700;
+}
+
+.button11 {
+    display: flex;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.button {
+    width: 140px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+}
+
+.button2 {
+    width: 140px;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    color: #222;
+}
+
+main {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 30%;
+
+}
+
+.text p {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+.text article {
+    font-weight: 400px;
+    color: white;
+    /* article ko bold */
+}
+
+.img {
+    position: relative;
+    width: 350px;
+    height: 300px;
+}
+
+.img h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 200px;
+    font-weight: bold;
+    color: white;
+
+    margin-left: 100px;
+    z-index: 1;
+}
+
+.img img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 250px;
+    height: 250px;
+
+    z-index: 2;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: 0;
+    width: fit-content;
+}
+
+.colors,
+.numbers {
+    display: flex;
+    gap: 15px;
+}
+
+.circle,
+.numbers div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Colored circles */
+.blue {
+    background-color: #42CFC7;
+}
+
+.orange {
+    background-color: #FF9A1F;
+}
+
+.light-orange {
+    background-color: #F20A3D;
+}
+
+.numbers {
+    margin-top: 12px;
+}
+
+.numbers div {
+    border: 1px solid #999;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 40px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+footer > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+footer > div:first-child img {
+    width: 25px;
+    height: 20px;
+    object-fit: contain;
+}
+
+footer > div:first-child img:first-child {
+    width: 20px;
+    height: 30px;
+}
+
+footer h4 {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    letter-spacing: 1px;
+}
+
+footer > div:last-child button {
+    width: 170px;
+    height: 42px;
+
+    border: none;
+    border-radius: 25px;
+
+    background-color: white;
+    color:black;
+
+    font-size: 13px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    cursor: pointer;
+}
+
+footer > div:last-child button img {
+    width: 20px;
+    height: 15px;
 }
